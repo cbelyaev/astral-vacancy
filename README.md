@@ -22,7 +22,7 @@ MS SQL Server, Postgres). Приложение должно поддержива
 
 ## Создание БД
 ```sh
-> cd AstralVacancy/Backend/Dal.Impl
+> cd astral-vacancy/Backend/Dal.Impl
 > dotnet ef database update
 ```
 
@@ -38,6 +38,6 @@ MS SQL Server, Postgres). Приложение должно поддержива
 
 ## Запуск тестового клиента (в отдельном окне терминала)
 ```sh
-> cd AstralVacancy/Frontend/Client
+> cd astral-vacancy/Frontend/Client
 > dotnet run
 ```
