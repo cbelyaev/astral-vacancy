@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>IO.Swagger</RootNamespace>
+    <AssemblyName>IO.Swagger</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonSubTypes" Version="1.5.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="RestSharp" Version="105.1.0" />
+    <PackageReference Include="System.Security.Permissions" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>AstralVacancy.Entities</AssemblyName>
+    <RootNamespace>AstralVacancy.Entities</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
